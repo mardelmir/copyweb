@@ -52,5 +52,37 @@ table {
 
 /* --- */
 
-  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap'); */
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.015625em;;
+}
+
+.gradient {
+    border: 10px solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    box-sizing: border-box;
+    
+    max-width: 100%;
+}
+
+.heart-name {
+    display: flex;
+}
+
+
+.heart-name:hover {
+    color: #7F7F7F;
+}
