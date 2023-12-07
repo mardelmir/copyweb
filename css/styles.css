@@ -210,25 +210,21 @@ input:focus {
     height: 95px;
 }
 
-.icon {
-    width: 50px;
-    height: 50px;
-}
 
 .masthead {
     display: flex;
     justify-content: center;
     background-image:
-        linear-gradient(270deg,
-            rgba(176, 42, 42, .16) 0%,
-            rgba(176, 42, 42, .56) 18.45%,
-            rgba(176, 42, 42, .8) 49.67%,
-            rgba(176, 42, 42, .56) 82.52%,
-            rgba(176, 42, 42, .196364) 99.7%,
-            rgba(189, 40, 40, 0) 99.71%,
-            rgba(203, 56, 55, 0) 99.72%,
-            rgba(203, 56, 55, .16) 99.73%),
-        url("../assets/img/backgoundcolours.png");
+    linear-gradient(270deg,
+    rgba(176, 42, 42, .16) 0%,
+    rgba(176, 42, 42, .56) 18.45%,
+    rgba(176, 42, 42, .8) 49.67%,
+    rgba(176, 42, 42, .56) 82.52%,
+    rgba(176, 42, 42, .196364) 99.7%,
+    rgba(189, 40, 40, 0) 99.71%,
+    rgba(203, 56, 55, 0) 99.72%,
+    rgba(203, 56, 55, .16) 99.73%),
+    url("../assets/img/backgoundcolours.png");
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -286,7 +282,7 @@ h2 {
     padding-top: 50px;
 }
 
-.yellow-sign-up{
+.yellow-sign-up {
     background-color: #FFC328;
     color: black;
     padding: 20px 60px;
@@ -301,12 +297,74 @@ h2 {
     padding: 20px 60px;
 }
 
+
+.white-background {
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+}
+
+.white-background-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 33em;
+    margin-bottom: 90px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    border-top: 1px solid #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    transition: all .15s linear;
+}
+
+.div-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px 50px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.info-footer {
+    padding: 50px;
+    line-height: 3;
+    font-size: 15px;
+    letter-spacing: 1;
+}
+
+
+
+
+
+
+
+
+
 .contact {
     position: fixed;
     bottom: 15px;
     right: 15px;
     color: white;
-    background-color: #E2329C;
+    background-color: black;
+    font-weight: 700;
     padding: 15px;
     border-radius: 50px;
 }
