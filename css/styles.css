@@ -395,7 +395,7 @@ h3 {
 
 .contact:after {
     position: fixed;
-    bottom: 15px;
+    bottom: 20px;
     right: 20px;
     color: white;
     font-family: 'Bootstrap-icons';
