@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Poppins:wght@400;500;600;700&family=Arimo&family=Source+Sans+3:wght@300;400;600&display=swap');
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
 /* -- Reset CSS -- */
 * {
@@ -392,13 +393,16 @@ h3 {
 }
 
 
-.contact {
+.contact:after {
     position: fixed;
     bottom: 15px;
-    right: 15px;
+    right: 20px;
     color: white;
+    font-family: 'Bootstrap-icons';
+    content: '\F249';
     background-color: black;
-    font-weight: 700;
+    font-size: 30px;
+    /* font-weight: 700; */
     padding: 15px;
     border-radius: 50px;
     cursor: pointer;
